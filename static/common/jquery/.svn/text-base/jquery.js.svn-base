@@ -1,0 +1,31 @@
+/**
+ * 基于 jQuery 独立维护 vs 产品线基础库
+ * @version v1.0.0
+ *
+ * @Notice:
+ * - 为什么不迁移到 jquery2: 业务需要支持 IE8 
+ *
+ * TODO:
+ */
+
+// jquery full
+require('./1.11.1/jquery.min.js');
+
+// @see: http://gitlab.pro/common-ui/jquery-cookie
+require('./plugin/jquery.cookie.js');
+
+// JSON shim
+require('./plugin/jquery.json.js');
+
+// mousewheel / DOMMouseScroll Compatible
+require('./plugin/jquery.mousewheel.js');
+
+// placeholder
+require('./plugin/jquery.placeholder.js');
+
+//FIS module
+// var $ = jQuery.noConflict();
+// module.exports = $;
+
+// Compat for `var $ = require("jquery")`
+module.exports = jQuery;

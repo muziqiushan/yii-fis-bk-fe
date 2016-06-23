@@ -1,0 +1,69 @@
+.action-btn-reject {
+    position: relative;
+}
+.reject-reason-wrap  {
+    position: absolute;
+    top: 90%;
+    left: -50%;
+    display: none;
+    width: 200%;
+    height: 30px;
+}
+/*
+ * .action-btn-reject:hover .reject-reason-wrap {
+ *     display: block;   
+ *     z-index: 2;
+ * }
+ */
+.reject-reason-input {
+    width: 100%;
+    height: 100%;
+    text-indent: 1em;
+    border: 1px solid #bb2413;
+    color: #000;
+}
+.reject-reason-triangle {
+    margin-left: 45%;
+    width:0;
+    height:0;
+    border-width: 5px;
+    border-style:solid;
+    border-color:transparent transparent #bb2413 transparent;
+}
+#refuse-dialog-wrap {
+    display: none;
+    width: 100%;
+    background-color: #333;
+}
+.refuse-dialog-contain label{
+    float: left;
+    width: 20%;
+    height: 30px;
+    line-height: 30px;
+}
+.refuse-dialog-contain textarea{
+    float: left;
+    height: 150px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+.refuse-dialog-contain textarea:focus{
+    border: none;
+    box-shadow: 0 0 5px 5px #333 inset;
+    padding: 1em;
+}
+.refuse-reason-label {
+    color: white;
+}
+.refuse-confirm,.refuse-cancel {
+    float: left;
+    width: 20%;
+    height: 30px;
+    margin-left: 20%;
+    text-align: center;
+    color: white;
+    line-height: 30px;
+}
+.ui-dialog-titlebar-close {
+    display: none;
+}

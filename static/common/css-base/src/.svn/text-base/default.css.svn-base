@@ -1,0 +1,34 @@
+/**
+ * Common dafault style
+ *
+ * @compatible [IE8+ / Chrome / Firefox / Opera / Safari]
+ */
+
+/**
+ * 1. Unified set `background` on <html>, not <body>.
+ * 2. Use `微软雅黑` as default.
+ * 3. The default page width.
+ * 4. Fix the browsers render bug when resize.
+ */
+
+html{
+    background: #fff; /* 1 */
+}
+
+body{
+    font: 12px/1.5 'Helvetica Neue', 'Helvetica,Arial', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif; /* 2 */
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.l-wrap{
+    width: 980px; /* 3 */
+    min-width: 980px; /* 4 */
+}

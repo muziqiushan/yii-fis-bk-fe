@@ -1,0 +1,17 @@
+{
+  "name": "mod",
+  "version": "1.0.1",
+  "authors": [
+    "yuji <yuji@baidu.com>"
+  ],
+  "description": "mod",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "http://gitlab.pro/bdg/mod",
+  "ignore": [
+    "**/*",
+    "!amd/**",
+    "!lib/**",
+    "!mod.js"
+  ]
+}

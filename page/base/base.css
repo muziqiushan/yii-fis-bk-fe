@@ -1,0 +1,120 @@
+@import url("normalize.css?__inline");
+@import url("reset.css?__inline");   
+
+/*setting*/
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 14px/100% "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "WenQuanYi Micro Hei", "Microsoft YaHei", sans-serif;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #FFF;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #0099CC;
+    line-height: 30px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+i {
+    font-style: normal;
+}
+
+img {
+    display: block;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    height: 0;
+    display: table;
+    clear: both;
+}
+.cf {
+    zoom:1;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+*:focus {
+    outline:none !important;
+}
+.main {
+    overflow: hidden;
+    /* min-height: 900px; */
+    /* height: calc( 100% - 60px); */
+}
+.left-nav-contain {
+    float: left;
+    width: 15%;
+    /* height: 100%; */
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+    background-color: #333;
+}
+.right-content-contain {
+    float: left;
+    width: 85%;
+    /* height: 100%; */
+    /* overflow-y: scroll; */
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+header *{
+    font-weight: bold;
+}
+.main {
+    font-size: 14px;
+}
+li {
+    list-style: none;
+}
+input[type=submit],input[type=reset] {
+    border: none;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.right,.fr {
+    float: right;
+}
+.left,.fl {
+    float: left;
+}

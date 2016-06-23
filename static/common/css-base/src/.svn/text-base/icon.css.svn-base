@@ -1,0 +1,40 @@
+/**
+ * Icon
+ *
+ * @compatible [IE8+ / Chrome / Firefox / Opera / Safari]
+ */
+
+/**
+ * 1. supports default font-icon style.
+ * 2. font rendering optimization.
+ * 3. supports IE10+.
+ */
+
+i,
+.i{
+    display: inline-block;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+
+    font-style: normal; /* 1 */
+    line-height: 1;
+    font-weight: normal;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+
+    -webkit-font-smoothing: antialiased; /* 2 */
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; /* 3 */
+    user-select: none;
+}
+
+i.close,
+.i.close{
+    
+}

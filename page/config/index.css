@@ -1,0 +1,39 @@
+div,input,span,label {
+    line-height: 30px !important;
+}
+label {
+    float: left;
+    width: 80px;
+}
+.detail-paragraph-contain {
+    width: 80%;
+}
+.detail-paragraph {
+    border: 1px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.menu-input{
+    float:left;
+    width: 60%;
+}
+.detail-contain {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.detail-index {
+    border: none !important;
+    min-width: 0 !important;
+    width: auto !important;
+    width: 16px !important;
+}
+.detail-btn {
+    float: left;
+}
+.detail-btn-del {
+    float: right;
+}
+.btn-save {
+    float: right;
+}

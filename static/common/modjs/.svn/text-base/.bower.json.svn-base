@@ -1,0 +1,26 @@
+{
+  "name": "mod",
+  "version": "1.0.1",
+  "authors": [
+    "yuji <yuji@baidu.com>"
+  ],
+  "description": "mod",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "http://gitlab.pro/bdg/mod",
+  "ignore": [
+    "**/*",
+    "!amd/**",
+    "!lib/**",
+    "!mod.js"
+  ],
+  "_release": "1.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.1",
+    "commit": "a241a1fce4b0711ad7b2095a3ec11cc9fbbc524e"
+  },
+  "_source": "http://gitlab.pro/com/modjs.git",
+  "_target": "*",
+  "_originalSource": "http://gitlab.pro/com/modjs.git"
+}

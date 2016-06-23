@@ -1,0 +1,12 @@
+.right-content-td-img {
+    position: relative;
+    height:50px;
+    width:50px;
+    margin:0 auto;
+    border-radius:100%;
+    transition: .3s;
+}
+.right-content-td-img[src]:hover {
+    transform:scale(4,4);
+    z-index: 9999;
+}

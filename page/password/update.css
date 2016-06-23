@@ -1,0 +1,49 @@
+.right-content-item {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+}
+.right-content-label {
+    float: left;
+    width: 20%;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 20px;
+    line-height: 30px;
+}
+.right-content-input {
+    float: left;
+    width: 30%;
+    height: 30px;
+}
+.checkbox {
+    cursor: pointer;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+.right-content-checkbox-list {
+    float: left;
+    max-width: 60%;
+}
+.right-content-checkbox-wrap {
+    float: left;
+    margin-right: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+.right-content-errmsg {
+    margin-left: 10px;
+    line-height: 30px;
+    border: none;
+    float:left;
+    color: red;
+}
+.action-btn-passwd{
+    margin-left: 0;
+}
+.toggle-passwd-label {
+    margin-left: 8px;
+    cursor: pointer;
+    vertical-align: middle;
+}

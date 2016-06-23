@@ -1,0 +1,150 @@
+/**
+ * Tools
+ *
+ * @compatible [IE8+ / Chrome / Firefox / Opera / Safari]
+ */
+
+/**
+ * Clean fix
+ *
+ * ref: http://nicolasgallagher.com/micro-clearfix-hack/
+ *
+ * @usage
+ *
+ * ```
+ * <div class="cf">
+ * </div>
+ * ```
+ *
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ *
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.cf:before,
+.cf:after{
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after{
+    clear: both;
+}
+
+.cf{
+    zoom: 1;
+}
+
+/**
+ * Hide
+ *
+ * @usage
+ *
+ * ```
+ * <h1 class"hide-text">title</h1>
+ * ```
+ */
+
+.hide{
+    display: none;
+}
+
+.hide-layout{
+    visibility: hidden !important;
+}
+
+.hide-text{
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+/**
+ * Unselect
+ *
+ * Prevent the text of the element and sub-elements be selected.
+ *
+ * @usage
+ *
+ * ```
+ * <div class"unselect">title</div>
+ * ```
+ * 1. Only supports IE10+
+ *
+ */
+
+.unselect{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none; /* 1 */
+    user-select: none;
+    cursor: default;
+}
+
+/**
+ * Border
+ *
+ * @usage
+ *
+ * ```
+ * <ul>
+ *     <li><span>nav</span><b></b></li>
+ * </ul>
+ * ```
+ */
+
+b,
+.b{
+    display: block;
+    font: 0/0 a;
+}
+
+/**
+ * Inner-block & Align-vertical-middle
+ *
+ * @usage
+ * ```
+ * <div class="avw">
+ *     <div class="av"></div>
+ * </div>
+ * ```
+ */
+
+.ibw,
+.avw,
+.ahw{
+    word-spacing: -.15em;
+    letter-spacing: -.15em;
+}
+
+.ibw .ib,
+.avw .av,
+.ahw .ah,
+.avw:before,
+.avw-before{
+    word-spacing: normal;
+    letter-spacing: normal;
+    display: inline-block;
+}
+
+.avw,
+.avw .av{
+    vertical-align: middle;
+}
+.avw:before,
+.avw-before{
+    content: "";
+    vertical-align: middle;
+    width: 0;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.ahw{
+    text-align: center;
+}

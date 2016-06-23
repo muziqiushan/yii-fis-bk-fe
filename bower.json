@@ -1,0 +1,14 @@
+{
+  "name": "xiancheng-manage",
+  "description": "Mr-hug管理后台",
+  "version": "1.0.0",
+  "dependencies": {
+    "cookie"      : "http://gitlab.pro/com/cookie.git",
+    "placeholder" : "http://gitlab.pro/com/placeholder.git",
+    "css-layout"  : "http://gitlab.pro/com/css-layout.git",
+    "css-tools"   : "http://gitlab.pro/com/css-tools.git",
+    "dialog"      : "http://gitlab.pro/com/dialog.git",
+    "mod-share"   : "http://gitlab.pro/com/mod-share.git",
+    "qr"          : "http://gitlab.pro/com/qr.git"
+  }
+}

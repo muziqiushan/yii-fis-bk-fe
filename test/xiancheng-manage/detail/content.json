@@ -1,0 +1,43 @@
+{
+     "data": [{
+          "movieId" : "123",
+          "movieName" : "小时代",
+          "movieType" : "爱情，科幻，喜剧",
+          "movieLocal" : "中国",
+          "movieDirector" : "郭敬明",
+          "movieActor" : "演员一，演员二，演员三",
+          "movieOnline" : "电影上映日期时间戳",
+          "movieOffline" : "电影下线时间戳",
+          "searchRank" : "31",
+          "conductRank" : "51",
+          "investRank" : "61",
+          "searchHot" : "32",
+          "snsHot" : "31",
+          "sameSchedule" : "65",
+          "directorEffect" : "75",
+          "actorEffect" : "51",
+
+          "picUrl": "http://file.ynet.com/2/1406/28/9114009.jpg",
+          "movieIntro": "《变形金刚4：绝迹重生》是美国导演迈克尔·贝执导的变形金刚系列科幻动作片，于2014年6月27日上映。本片是变形金刚真人电影系列的新三部曲之第一部。从上映开始，本片便遭到猛烈批评，针对影片的批评主要有剧情、导演、表演、片长和广告植入。"
+     },{
+          "movieId" : "123",
+          "movieName" : "小时代",
+          "movieType" : "爱情，科幻，喜剧",
+          "movieLocal" : "中国",
+          "movieDirector" : "郭敬明",
+          "movieActor" : "演员一，演员二，演员三",
+          "movieOnline" : "电影上映日期时间戳",
+          "movieOffline" : "电影下线时间戳",
+          "searchRank" : "31",
+          "conductRank" : "51",
+          "investRank" : "61",
+          "searchHot" : "32",
+          "snsHot" : "31",
+          "sameSchedule" : "65",
+          "directorEffect" : "75",
+          "actorEffect" : "51",
+
+          "picUrl": "http://file.ynet.com/2/1406/28/9114009.jpg",
+          "movieIntro": "《变形金刚4：绝迹重生》是美国导演迈克尔·贝执导的变形金刚系列科幻动作片，于2014年6月27日上映。本片是变形金刚真人电影系列的新三部曲之第一部。从上映开始，本片便遭到猛烈批评，针对影片的批评主要有剧情、导演、表演、片长和广告植入。"
+     }]
+}

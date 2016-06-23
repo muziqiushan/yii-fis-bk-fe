@@ -1,0 +1,11 @@
+.btn-select {
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    margin-left: -2em;
+    color: #fff;
+    padding: 0 2em;
+    border-radius: 15px;
+    border: 2px solid #aaa;
+    line-height: 26px;
+}

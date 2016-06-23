@@ -1,0 +1,40 @@
+.content-outer-wrap div,.content-outer-wrap input,.content-outer-wrap span,.content-outer-wrap label {
+    line-height: 30px !important;
+}
+label {
+    float: left;
+    width: 80px;
+}
+.content-outer-wrap {
+    margin: 0 auto;
+    width: 80%;
+}
+.detail-paragraph {
+    border: 1px solid green;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.menu-input{
+    float:left;
+    width: 60%;
+}
+.detail-contain {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.detail-index {
+    border: none !important;
+    min-width: 0 !important;
+    width: auto !important;
+    width: 1em !important;
+}
+.detail-btn {
+    float: left;
+}
+.detail-btn-del {
+    float: right;
+}
+.btn-save {
+    float: right;
+}

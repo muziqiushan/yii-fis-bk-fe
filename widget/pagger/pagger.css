@@ -1,0 +1,23 @@
+.right-content-manager-footer-pagger {
+    float: right;
+    margin-top: 20px;
+}
+.right-content-manager-footer-pagger-item {
+    float: left;
+    cursor: pointer;
+    font: 12px/100% "microsoft yahei";
+    padding: 8px 10px;
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+}
+.right-content-manager-footer-pagger-item:hover {
+    background-color: #0362fd;
+    color: #fff;
+}
+.pagger-control.prev,
+.pagger-control.next{
+    margin: 0 6px;
+}
+.manager-footer-pagger-item-cur {
+    background-color: #e5e5e5;
+}

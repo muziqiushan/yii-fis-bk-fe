@@ -1,0 +1,27 @@
+{
+  "name": "css-base",
+  "version": "1.0.9",
+  "authors": [
+    "yuji <yuji@baidu.com>"
+  ],
+  "description": "suggest",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "http://gitlab.pro/bdg/css-base",
+  "ignore": [
+    "**/*",
+    "!src/**",
+    "!dist/**",
+    "!css-base.css",
+    "!css-base.tpl"
+  ],
+  "_release": "1.0.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.9",
+    "commit": "2570e2ccbebf362ec6a3b88debbd1888faf6a32a"
+  },
+  "_source": "http://gitlab.pro/com/css-base.git",
+  "_target": "*",
+  "_originalSource": "http://gitlab.pro/com/css-base.git"
+}

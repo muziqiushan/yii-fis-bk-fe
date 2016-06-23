@@ -1,0 +1,26 @@
+{
+  "name": "jquery",
+  "version": "1.0.4",
+  "authors": [
+    "yuji <yuji@baidu.com>"
+  ],
+  "description": "jquery",
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "http://gitlab.pro/bdg/suggest",
+  "ignore": [
+    "**/*",
+    "!jquery.js",
+    "!plugin/**",
+    "!1.11.1/**"
+  ],
+  "_release": "1.0.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.0.4",
+    "commit": "dd9410dd3a60d70f02461a40b5d282edc3b730e6"
+  },
+  "_source": "http://gitlab.pro/com/jquery.git",
+  "_target": "*",
+  "_originalSource": "http://gitlab.pro/com/jquery.git"
+}

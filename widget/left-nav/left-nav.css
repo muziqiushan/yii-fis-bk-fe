@@ -1,0 +1,75 @@
+hr {
+    width: 100%;
+}
+.left-nav-upload {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100% !important;
+}
+button.left-nav-upload-btn {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-shadow: none;
+}
+.left-nav-upload-ta {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% !important;
+}
+input.left-nav-search {
+    margin: 20px;
+    width: initial; 
+    color: #000;
+    text-align: left;
+    text-indent: 1em;
+}
+.left-nav-list {
+    width: 100%;
+    /*background-color: #333;*/
+}
+.left-nav-item {
+    position: relative;
+    float: left;
+    width: 100%;
+    height:45px;
+    font: 14px/45px "microsoft yahei";
+    color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #666;
+}
+span.left-nav-item  {
+    font-weight: bold;
+    border-top: 1px solid #ccc;
+    border-bottom: 3px solid #ccc;
+}
+.left-nav-item.cur {
+    background-color: #e02222;
+}
+div.magzine_review {
+    border-color:#0362fd !important;
+}
+div.magzine_manage {
+    border-color:#1d943b !important;
+}
+div.type_manage {
+    border-color:#4b8df8 !important;
+    
+}
+div.user_manage {
+    border-color:purple !important;
+}
+div.ad_manage {
+    border-color:orange !important;
+}
+div.notice_manage {
+    
+}
+div.password_update {
+    
+}
